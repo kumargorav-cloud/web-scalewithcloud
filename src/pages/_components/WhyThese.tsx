@@ -54,7 +54,7 @@ export default function WhyThese() {
 
         {/* Grid */}
         <div className="grid md:grid-cols-2 gap-8">
-          {reasons.map((r, i) => {
+          {reasons.map((r, _i) => {
             const Icon = r.icon;
 
             return (
