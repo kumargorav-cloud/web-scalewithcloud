@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Bot, GitBranch, Server, Cloud, Sparkles, ArrowRight } from "lucide-react";
+import { Bot, GitBranch, Server, Cloud, ArrowRight } from "lucide-react";
 
 const useCases = [
   {
@@ -71,7 +71,7 @@ export default function AIApproach() {
 
         {/* Use cases */}
         <div className="space-y-6 mb-20">
-          {useCases.map((u, i) => {
+          {useCases.map((u, _i) => {
             const Icon = u.service;
 
             return (
