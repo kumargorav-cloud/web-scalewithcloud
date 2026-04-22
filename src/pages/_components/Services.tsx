@@ -70,7 +70,7 @@ export default function Services() {
 
         {/* Cards */}
         <div className="grid md:grid-cols-3 gap-6">
-          {services.map((s, i) => {
+          {services.map((s, _i) => {
             const Icon = s.icon;
 
             return (
