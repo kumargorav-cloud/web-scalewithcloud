@@ -52,7 +52,7 @@ export default function About() {
 
             {/* Stats */}
             <div className="grid grid-cols-2 gap-4">
-              {stats.map((s, i) => {
+              {stats.map((s, _i) => {
                 const Icon = s.icon;
 
                 return (
