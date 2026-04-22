@@ -80,7 +80,7 @@ export default function Contact() {
           <div className="space-y-4">
             <div className="flex gap-3 items-center">
               <Mail className="text-blue-600" />
-              <span>gorav.code123@gmail.com</span>
+              <span>devops.pro</span>
             </div>
           </div>
 
